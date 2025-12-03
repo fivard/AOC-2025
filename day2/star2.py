@@ -1,3 +1,5 @@
+import time
+
 is_simple_example = False
 
 
@@ -23,10 +25,10 @@ res = 0
 
 for _range in ranges:
     start, end = _range[0], _range[1]
-    print(f"Processing range: {start}-{end}")
+    # print(f"Processing range: {start}-{end}")
     for i in range(start, end + 1):
         if _is_invalid_number(number=i):
-            print(f" Found matching number: {i}")
+            # print(f" Found matching number: {i}")
             res += i
 
 print("Total:", res)
