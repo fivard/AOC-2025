@@ -1,6 +1,5 @@
 is_simple_example = False
 
-
 with open("example.txt" if not is_simple_example else "simple_example.txt", "r") as file:
     banks = [list(map(int, list(line.strip()))) for line in file.readlines()]
 

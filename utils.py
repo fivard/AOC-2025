@@ -13,3 +13,4 @@ COMMANDS = {
 }
 
 COMMON_DIRECTIONS = [(-1, 0), (0, -1), (1, 0), (0, 1)]
+ALL_DIRECTIONS = [(-1, -1), (-1, 1), (1, -1), (1, 1)] + COMMON_DIRECTIONS
